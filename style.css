@@ -1,0 +1,75 @@
+.Header {
+    font-family: monospace;
+    background-color: rgba(0, 0, 0);
+    
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    align-items: center;
+  
+    height: 144px;
+
+    width: 100%;
+    text-decoration: none;
+    z-index: 9;
+}
+
+.Left, .Right {
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.LogoImage {
+    border-radius: 50%;
+    
+    display: flex;
+    width: 100px;
+    height: auto;
+    align-items: center;
+    object-fit: contain;
+}
+
+.WebsiteName {
+    color: cadetblue;
+}
+
+.HeaderList {
+    list-style: none;
+    color: azure;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.HeaderListItem {
+    height: 60px;
+    width: 200px;
+
+    background-color: hotpink;
+
+    border-radius: 80px;
+
+    border-color: orchid;
+}
+
+.BodyBlox {
+    display: flex;
+    flex-direction: column;
+}
+
+.spiderverse {
+    right: 0;
+    position: absolute;
+    width: 100%;
+}
